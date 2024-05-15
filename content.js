@@ -11,6 +11,8 @@ setTimeout(function() {
     theConfidence();
   } else if (hostname == 'www.diariosur.es') {
     southDiary();
+  } else if (hostname == 'www.elmundo.es') {
+    theConfidence();
   }
 
 }, 2000);
