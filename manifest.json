@@ -7,7 +7,7 @@
   "action": {}, 
   "content_scripts": [ 
     { 
-      "matches": ["*://elpais.com//*", "*://www.elconfidencial.com/*", "*://www.marca.com/*", "*://www.diariosur.es/*","*://www.elmundo.es/*"], 
+      "matches": ["*://elpais.com//*", "*://www.elconfidencial.com/*", "*://www.marca.com/*", "*://www.diariosur.es/*", "*://www.elmundo.es/*", "*://www.elespanol.com/*", "*://www.epe.es/*", "*://www.elperiodico.com/*", "*://www.lavanguardia.com/*"], 
       "js": ["content.js"], 
       "world":"MAIN",
       "run_at": "document_idle" 
@@ -18,7 +18,11 @@
     "*://www.elconfidencial.com/*",
     "*://www.marca.com/*",
     "*://www.diariosur.es/*",
-    "*://www.elmundo.es/*"
+    "*://www.elmundo.es/*",
+    "*://www.elespanol.com/*",
+    "*://www.epe.es/*",
+    "*://www.elperiodico.com/*",
+    "*://www.lavanguardia.com/*"
 
   ],
   "icons": {
