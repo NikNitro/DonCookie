@@ -14,6 +14,7 @@ setTimeout(function() {
 	case "www.epe.es":
 	case "www.elperiodico.com":
 	case "www.lavanguardia.com":
+    case "www.elindependiente.com":
 		theConfidence();
 		break;
 	case "www.diariosur.es":
