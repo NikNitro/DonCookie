@@ -23,6 +23,9 @@ setTimeout(function() {
 	case "www.elespanol.com":
 		theSpanish();
 		break;
+    case "www.meneame.net":
+        moveMe();
+        break;
 	}
 
 }, 2000);
@@ -64,4 +67,11 @@ var theSpanish = function(){
 	if (blur) {
 		blur.remove();
 	}
+}
+
+var moveMe = function() {
+    var wall = document.getElementById('qc-cmp2-main');
+    if (wall) {
+        wall.remove();
+    }
 }
